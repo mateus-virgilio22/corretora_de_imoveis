@@ -1,0 +1,145 @@
+:root {
+    --branco-: #ffffff;
+    --preto-: #000000;
+    --principal-: #233871;
+    --secundária-: #f1f1f1;
+    --terceira-: #7E7E7E ;
+}
+
+
+
+.logo {
+    height: 7rem;
+}
+
+.nav-link {
+    padding-left: 35px!important;
+    padding-right: 35px!important;
+    font-weight: bold!important;
+}
+
+.titulo {
+    height: 200px;
+    max-width: 991px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: var(--branco-);
+    font-weight: bold;
+    font-family: 'Sora', sans-serif;
+    margin-top: 7rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.sobre_nos {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid var(--terceira-);
+}
+
+.titulo_sobre {
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: bold;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secundária-);
+}
+
+.texto_sobre {
+    height: 85%;
+    text-align: justify;
+    padding: 2rem;
+    background-color: var(--principal-);
+    color: var(--branco-);
+    display: flex;
+    align-items: center;
+}
+
+.amostra {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secundária-);
+}
+
+.titulo-amostra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: bold;
+    height: 200px;
+}
+
+.content-amostra {
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    padding-bottom: 15px;
+    column-gap: 1rem;
+}
+
+.img_amostra {
+    height: 250px;
+    width: 300px;
+}
+
+.descricao {
+    background-color: var(--secundária-);
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.div_img_descricao {
+    display: flex;
+    justify-content: center;
+}
+
+.img_descricao {
+    height: 240px;
+    width: 320px;
+}
+
+.container_imoveis {
+    background-color: var(--secundária-);
+}
+
+.imoveis {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.btn-white {
+    background-color: var(--branco-);
+    color: var(--preto-)!important;
+    border-radius: 20px;
+    padding: 15px 25px;
+    font-size: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.active, .btn-white:hover {
+    background-color: var(--principal-)!important;
+    color: var(--branco-)!important;
+}
+
+.hidden {
+    display: none!important;
+}
