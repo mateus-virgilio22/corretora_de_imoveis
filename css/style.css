@@ -143,3 +143,8 @@
 .hidden {
     display: none!important;
 }
+
+.dimensao, .preco, .parcela {
+    font-size: 12px;
+    text-align: center;
+}

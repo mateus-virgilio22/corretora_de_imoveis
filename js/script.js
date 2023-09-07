@@ -27,7 +27,7 @@ imoveis.metodos = {
         $.each(filtro, (i, e) => {
 
             let temp = imoveis.templates.item.replace(/\${img}/g, e.img)
-            .replace(/\${nome}/g, e.name)
+            .replace(/\${dimensao}/g, e.dimensao)
             .replace(/\${preco}/g, e.price.toFixed(2).replace('.', ','))
             .replace(/\${id}/g, e.id)
 
@@ -67,12 +67,12 @@ imoveis.templates = {
     item: 
 
     `
-        <div class="card" style="width: 9rem; height: 15rem;">
-            <img src="\${img}" alt="">
+        <div class="card" style="width: 9rem; height: 13rem;">
+            <img class="img_imoveis" src="\${img}" alt="">
             <div class="card-body">
-                <p class="card-text">120m x 20m</p>
-                <p class="card-text">R$ \${preco}</p>
-                <p class="card-text">250x de R$ 2.000,00</p>
+                <p class="card-text dimensao">\${dimensao}</p>
+                <p class="card-text preco">R$ \${preco}</p>
+                <p class="card-text parcela">250x de R$ 2.000,00</p>
             </div>
         </div>
     `
