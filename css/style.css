@@ -118,6 +118,17 @@
     background-color: var(--secundária-);
 }
 
+.content-imoveis {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
 .imoveis {
     padding: 1rem;
     display: grid;
@@ -144,7 +155,12 @@
     display: none!important;
 }
 
-.dimensao, .preco, .parcela {
+.dimensao, .bairro {
     font-size: 12px;
+    text-align: center;
+}
+
+.comodos {
+    font-size: 7px;
     text-align: center;
 }

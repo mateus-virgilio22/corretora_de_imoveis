@@ -1,88 +1,88 @@
 var IMOVEL = {
     "nova_russas": [
         {
-            "id": "ribs-brisket-and-burnt-ends",
+            "bairro": "Universidade",
             "img": "./img/cidades/nova_russas/imovel_1.jpg",
             "dimensao": "100m x 30m",
             "dsc": "Joe's KC Ribs, Brisket & Burnt Ends",
-            "price": 200
+            "comodos": "1 sala, 3 quartos (2 suítes), 1 cozinha, 1 área de lazer"
         },
         {
-            "id": "005-kings-carolina-oink-sampler",
+            "bairro": "Nova Aldeota",
             "img": "./img/cidades/nova_russas/imovel_2.jpg",
             "dimensao": "80m x 30m",
             "dsc": "Carolina BBQ Oink Sampler",
-            "price": 89
+            "comodos": "2 salas, 3 quartos (2 suítes), 1 cozinha, 1 área de lazer"
         },
         {
-            "id": "texas-monthlys-1-bbq-brisket",
+            "bairro": "Cohab",
             "img": "./img/cidades/nova_russas/imovel_3.jpg",
             "dimensao": "120m x 40m",
             "dsc": "Texas Monthly's #1 BBQ Brisket",
-            "price": 199
+            "comodos": "2 salas, 2 suítes, 1 cozinha, 1 área de lazer"
         },
         {
-            "id": "whole-brisket-texas-bbq-sauce",
+            "bairro": "Timbaúba",
             "img": "./img/cidades/nova_russas/imovel_4.jpg",
             "dimensao": "110m x 20m",
             "dsc": "Whole Brisket + Texas Barbecue BBQ Sauce",
-            "price": 249
+            "comodos": "1 sala, 3 suítes, 1 cozinha, 1 área de lazer"
         },
         {
-            "id": "whole-texas-smoked-brisket",
+            "bairro": "Novo Pantanal",
             "img": "./img/cidades/nova_russas/imovel_5.jpg",
             "dimensao": "90m x 30m",
             "dsc": "Whole Texas Smoked Brisket",
-            "price": 189
+            "comodos": "1 sala, 2 suítes, 1 cozinha, 1 área de lazer"
         },
         {
-            "id": "mini-trinity-bbq-combo-brisket-ribs-and-links",
+            "bairro": "Novo Pantanal",
             "img": "./img/cidades/nova_russas/imovel_6.jpg",
             "dimensao": "100m x 20m",
             "dsc": "Mini Trinity BBQ Combo - Brisket, Ribs & Links",
-            "price": 139
+            "comodos": "1 sala, 3 suítes, 1 cozinha, 1 área de lazer"
         },
         {
-            "id": "235203-blue-smoke-baby-back-ribs-backyard-barbecue-chicken-combo",
+            "bairro": "Universidade",
             "img": "./img/cidades/nova_russas/imovel_7.jpg",
             "dimensao": "130m x 40m",
             "dsc": "Blue Smoke Baby Back Ribs + Backyard Barbecue Chicken Combo",
-            "price": 129
+            "comodos": "2 salas, 3 suítes, 1 cozinha, 1 área de lazer"
         },
         {
-            "id": "006-kings-meat-lovers-special",
+            "bairro": "Tamarindo",
             "img": "./img/cidades/nova_russas/imovel_8.jpg",
             "dimensao": "100m x 30m",
             "dsc": "BBQ Meat Lovers Special for 10",
-            "price": 139
+            "comodos": "1 sala, 3 suítes, 1 cozinha, 1 área de lazer"
         },
         {
-            "id": "the-big-ugly-bbq-dinner-for-6",
+            "bairro": "Tamarindo",
             "img": "./img/cidades/nova_russas/imovel_9.jpg",
             "dimensao": "120m x 15m",
             "dsc": "The Big Ugly BBQ Dinner for 6",
-            "price": 229
+            "comodos": "1 sala, 2 suítes, 1 cozinha, 1 área de lazer"
         },
         {
-            "id": "17796-mighty-quinns-bbq-sampler-pack",
+            "bairro": "Nova Aldeota",
             "img": "./img/cidades/nova_russas/imovel_10.jpg",
             "dimensao": "100m x 20m",
             "dsc": "Mighty Quinn's BBQ Sampler Pack",
-            "price": 169
+            "comodos": "1 sala, 3 suítes, 1 cozinha, 1 área de lazer"
         },
         {
-            "id": "post-oak-smoked-half-brisket",
+            "bairro": "Cohab",
             "img": "./img/cidades/nova_russas/imovel_11.jpg",
             "dimensao": "90m x 30m",
             "dsc": "Post Oak Smoked USDA Prime Half Brisket",
-            "price": 109
+            "comodos": "1 sala, 2 suítes, 1 cozinha, 1 área de lazer"
         },
         {
-            "id": "best-of-texas-bbq-combo-serves-14",
+            "bairro": "Progresso",
             "img": "./img/cidades/nova_russas/imovel_12.jpg",
             "dimensao": "120m x 20m",
             "dsc": "Best of Texas BBQ Combo - Serves 14",
-            "price": 269
+            "comodos": "2 salas, 2 suítes, 1 cozinha, 1 área de lazer"
         }
     ],
     "sobral": [

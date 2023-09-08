@@ -28,8 +28,8 @@ imoveis.metodos = {
 
             let temp = imoveis.templates.item.replace(/\${img}/g, e.img)
             .replace(/\${dimensao}/g, e.dimensao)
-            .replace(/\${preco}/g, e.price.toFixed(2).replace('.', ','))
-            .replace(/\${id}/g, e.id)
+            .replace(/\${comodos}/g, e.comodos)
+            .replace(/\${bairro}/g, e.bairro)
 
             // botão ver mais foi clicado (12 itens)
             if(vermais && i >= 8 && i < 12) {
@@ -59,7 +59,7 @@ imoveis.metodos = {
 
         $("#btnVerMais").addClass('hidden');
 
-    }
+    },
 }
 
 imoveis.templates = {
@@ -67,13 +67,45 @@ imoveis.templates = {
     item: 
 
     `
-        <div class="card" style="width: 9rem; height: 13rem;">
+        <div class="card" style="width: 9rem; height: 13rem;" onclick="imoveis.metodos.abrirModal()">
             <img class="img_imoveis" src="\${img}" alt="">
             <div class="card-body">
+                <p class="card-text comodos">\${comodos}</p>
                 <p class="card-text dimensao">\${dimensao}</p>
-                <p class="card-text preco">R$ \${preco}</p>
-                <p class="card-text parcela">250x de R$ 2.000,00</p>
+                <p class="card-text bairro">\${bairro}</p>
             </div>
         </div>
+    `,
+
+    album:
+    `
+    <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/amostra_1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/amostra_2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/amostra_4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/amostra_4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/amostra_4.jpg" class="d-block w-100" alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    
     `
 }

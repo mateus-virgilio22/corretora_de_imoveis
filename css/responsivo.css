@@ -58,4 +58,8 @@
        height: 19rem!important; 
     }
 
+    .comodos, .dimensao, .bairro {
+        font-size: 14px;
+    }
+
 }
