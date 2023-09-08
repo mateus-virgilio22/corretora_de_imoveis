@@ -5,14 +5,24 @@ var IMOVEL = {
             "img": "./img/cidades/nova_russas/imovel_1.jpg",
             "dimensao": "100m x 30m",
             "dsc": "Joe's KC Ribs, Brisket & Burnt Ends",
-            "comodos": "1 sala, 3 quartos (2 suítes), 1 cozinha, 1 área de lazer"
-        },
+            "comodos": "1 sala, 3 quartos (2 suítes), 1 cozinha, 1 área de lazer",
+            "foto_1": "./img/cidades/nova_russas/imovel_1.jpg",
+            "foto_2": "./img/cidades/nova_russas/imovel_2.jpg",
+            "foto_3": "./img/cidades/nova_russas/imovel_3.jpg",
+            "foto_4": "./img/cidades/nova_russas/imovel_4.jpg",
+            "foto_5": "./img/cidades/nova_russas/imovel_5.jpg", 
+        } ,
         {
             "bairro": "Nova Aldeota",
             "img": "./img/cidades/nova_russas/imovel_2.jpg",
             "dimensao": "80m x 30m",
             "dsc": "Carolina BBQ Oink Sampler",
-            "comodos": "2 salas, 3 quartos (2 suítes), 1 cozinha, 1 área de lazer"
+            "comodos": "2 salas, 3 quartos (2 suítes), 1 cozinha, 1 área de lazer",
+            "foto_1": "./img/cidades/nova_russas/imovel_6.jpg",
+            "foto_2": "./img/cidades/nova_russas/imovel_7.jpg",
+            "foto_3": "./img/cidades/nova_russas/imovel_8.jpg",
+            "foto_4": "./img/cidades/nova_russas/imovel_9.jpg",
+            "foto_5": "./img/cidades/nova_russas/imovel_10.jpg",
         },
         {
             "bairro": "Cohab",
@@ -84,7 +94,7 @@ var IMOVEL = {
             "dsc": "Best of Texas BBQ Combo - Serves 14",
             "comodos": "2 salas, 2 suítes, 1 cozinha, 1 área de lazer"
         }
-    ],
+    ], 
     "sobral": [
         {
             "id": "the-gramercy-tavern-burger-4-pack",
