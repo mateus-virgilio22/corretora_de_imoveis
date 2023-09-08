@@ -62,4 +62,13 @@
         font-size: 14px;
     }
 
+    .carousel {
+        height: 500px!important;
+        width: 600px!important;
+    }
+
+    .album {
+        height: 600px;
+    }
+
 }

@@ -164,3 +164,15 @@
     font-size: 7px;
     text-align: center;
 }
+
+.album {
+    background-color: var(--secundária-);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel {
+    width: 80%!important;
+}
+
