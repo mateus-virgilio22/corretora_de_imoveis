@@ -175,20 +175,50 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.9); /* Adjust opacity as needed */
+    background-color: rgba(0, 0, 0, 0.9); 
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 9999; /* Ensure it's on top of other content */
+    z-index: 9999; 
 }
 
 #album .carousel {
-    max-width: 80%; /* Adjust the size of the album */
-    max-height: 80%; /* Adjust the size of the album */
+    max-width: 80%; 
+    max-height: 80%; 
 }
 
 #album .carousel-inner {
     text-align: center;
+}
+
+footer {
+    background-color: var(--secundária-);
+    display: flex;
+    height: 200px;
+    border-top: 1px solid var(--terceira-);
+}
+
+.content_footer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.desenvolvedor p {
+    font-size: 12px;
+    padding: 5px;
+}
+
+.redes_sociais {
+    display: flex;
+    gap: 10px;
+}
+
+i {
+    color: var(--preto-);
+    font-size: 18px;
 }
 
 
