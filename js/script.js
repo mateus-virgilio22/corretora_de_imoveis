@@ -76,8 +76,16 @@ imoveis.metodos = {
             .replace(/\${img_5}/g, imovel.foto_5)
 
             $("#album").append(fotos)
+
+            $("#album").css("transform", "translateY(0)");
     }
 }
+
+$(document).on("click", "#album", function (e) {
+    if (e.target === this) {
+        $("#album").css("transform", "translateY(-100%)");
+    }
+});
 
 imoveis.templates = {
 
